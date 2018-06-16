@@ -762,7 +762,7 @@ form label.error {
   color: #E5732D; }
 
 .color-alternet {
-  color: #064E94; }
+  color: #2A4051; }
 
 .bg-light, .box-s2 {
   background: #f8f8f8; }
@@ -783,7 +783,7 @@ form label.error {
   background: #E5732D; }
 
 .bg-alternet {
-  background: #064E94; }
+  background: #2A4051; }
 
 .bg-light-primary {
   background-color: rgba(67, 89, 106, 0.1); }
@@ -792,7 +792,7 @@ form label.error {
   background-color: rgba(229, 115, 45, 0.1); }
 
 .bg-light-alternet {
-  background-color: rgba(6, 78, 148, 0.1); }
+  background-color: rgba(42, 64, 81, 0.1); }
 
 .bdr {
   border: 1px solid rgba(0, 0, 0, 0.04); }
@@ -1352,6 +1352,7 @@ form label.error {
     height: auto;
     padding: 0; }
     .site-header .navbar-brand img {
+      border-radius: 0;
       width: auto;
       max-width: 100%;
       max-height: 60px; }
@@ -1615,14 +1616,14 @@ form label.error {
         transition: transform .4s; }
     .navbar-nav .dropdown-menu.active > a, .navbar-nav .dropdown-menu li > a:hover, .navbar-nav .dropdown-menu li > a:focus {
       color: #fff;
-      background-color: #064E94; }
+      background-color: #2A4051; }
     .navbar-nav .dropdown-menu > .active > a, .navbar-nav .dropdown-menu > .active > a:focus, .navbar-nav .dropdown-menu > .active > a:hover {
       color: #fff;
-      background-color: #064E94; }
+      background-color: #2A4051; }
   .navbar-nav ul li.active > a, .navbar-nav ul li.active > a:focus .navbar-nav ul li.active > a:hover, .navbar-nav ul li.rollover > a {
     color: #fff; }
   .navbar-nav ul li.active > a, .navbar-nav ul li.rollover > a {
-    background: #064E94; }
+    background: #2A4051; }
   .navbar-nav .label {
     margin-top: -2px;
     vertical-align: middle;
@@ -1815,11 +1816,11 @@ form label.error {
   padding: 16px 24px;
   border-radius: 0; }
   .header-s2 .navbar-nav > li.quote-btn .btn:hover, .header-s3 .navbar-nav > li.quote-btn .btn:hover {
-    background: #064E94;
+    background: #2A4051;
     color: #fff; }
 .header-s2 .navbar-nav > li.active > a, .header-s2 .navbar-nav > li > a:hover, .header-s2 .navbar-nav > li > a:focus, .header-s2 .dropdown-menu > .active > a, .header-s2 .dropdown-menu > .active > a:focus, .header-s2 .dropdown-menu > .active > a:hover, .header-s3 .navbar-nav > li.active > a, .header-s3 .navbar-nav > li > a:hover, .header-s3 .navbar-nav > li > a:focus, .header-s3 .dropdown-menu > .active > a, .header-s3 .dropdown-menu > .active > a:focus, .header-s3 .dropdown-menu > .active > a:hover {
   color: #fff;
-  background: #064E94; }
+  background: #2A4051; }
 .header-s2 .top-nav li a, .header-s3 .top-nav li a {
   font-size: 12px;
   line-height: 40px;
@@ -1899,7 +1900,7 @@ form label.error {
     color: inherit;
     font-size: 2.25em; }
     .banner-text h1 strong, .banner-text h2 strong {
-      color: #43596a; }
+      color: #E5732D; }
   .banner-text [class*="heading-"] {
     color: inherit; }
   .banner-text .with-line:after {
@@ -1966,7 +1967,16 @@ form label.error {
     width: 100%;
     height: 100%;
     background-position: center center;
-    background-size: cover; }
+    background-size: cover;
+    position: relative; }
+    .banner-slider .fill:after {
+      position: absolute;
+      content: "";
+      background-color: rgba(0, 0, 0, 0.3);
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%; }
   .banner-slider.banner-large {
     height: 640px; }
     .is-transparent .banner-slider.banner-large {
@@ -2064,7 +2074,7 @@ div[class*="olayer-"] {
   div[class*="olayer-"].secondary {
     background: #E5732D; }
   div[class*="olayer-"].alternet {
-    background: #064E94; }
+    background: #2A4051; }
 
 .olayer-01 {
   opacity: 0.1; }
@@ -4262,6 +4272,7 @@ div[class*="box-flat"] {
   .site-header .navbar-brand {
     margin-top: 10px; }
     .site-header .navbar-brand img {
+      border-radius: 0;
       max-height: 40px; }
 
   .header-s2 .navbar-collapse, .header-s3 .navbar-collapse {
@@ -4691,7 +4702,7 @@ div[class*="box-flat"] {
       -ms-border-radius: 4px;
       border-radius: 4px; }
       .site-header .navbar-collapse li.quote-btn .btn:hover {
-        background-color: #064E94; }
+        background-color: #2A4051; }
 
   .header-s1 .navbar .container {
     padding-left: 0;
@@ -5339,7 +5350,7 @@ div[class*="box-flat"] {
     border-color: #fff;
     color: #43596a; }
   .pricing-boxed.pricing-best-alt.bg-primary, .pricing-boxed.pricing-best-alt.box-s3 {
-    background: #064E94; }
+    background: #2A4051; }
 
 @media only screen and (max-width: 991px) {
   .pricing-price {
