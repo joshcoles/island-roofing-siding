@@ -741,6 +741,9 @@ div[class*="wide-"] {
 			border-color: $primary-color;
 		}
 	}
+	&.btn-orange {
+		background-color: $secondary-color !important;
+	}
 	&.btn-outline{
 		color: $primary-color;
 		background-color: transparent;
@@ -1311,7 +1314,14 @@ form label.error {
 		}
 	}
 }
-.accordion {
+.section-intro-dark {
+	background-color: $primary-color;
+	h1, p {
+		color: $bg-light;
+	}
+}
+
+.accordion { 
 	.panel {
 		border-bottom: 1px solid rgba(0,0,0,0.10);
 

@@ -587,6 +587,8 @@ div[class*="wide-"] + div[class*="row-column"]:not([class*="mg"]):not([class*="m
     .btn.btn-alt:hover, .btn.btn-alt:focus {
       background: #43596a;
       border-color: #43596a; }
+  .btn.btn-orange {
+    background-color: #E5732D !important; }
   .btn.btn-outline {
     color: #43596a;
     background-color: transparent; }
@@ -1033,6 +1035,11 @@ form label.error {
 .tab-custom.tab-simple .tab-content {
   background: none;
   border: 1px solid #ececec; }
+
+.section-intro-dark {
+  background-color: #43596a; }
+  .section-intro-dark h1, .section-intro-dark p {
+    color: #f8f8f8; }
 
 .accordion .panel {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
