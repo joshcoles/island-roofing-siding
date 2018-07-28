@@ -1,0 +1,35 @@
+[debug] [2018-07-28T17:44:38.384Z] ----------------------------------------------------------------------
+[debug] [2018-07-28T17:44:38.386Z] Command:       /usr/local/bin/node /Users/joshcoles/.npm-global/bin/firebase deploy
+[debug] [2018-07-28T17:44:38.386Z] CLI Version:   3.18.6
+[debug] [2018-07-28T17:44:38.387Z] Platform:      darwin
+[debug] [2018-07-28T17:44:38.387Z] Node Version:  v8.4.0
+[debug] [2018-07-28T17:44:38.387Z] Time:          Sat Jul 28 2018 10:44:38 GMT-0700 (PDT)
+[debug] [2018-07-28T17:44:38.387Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-28T17:44:38.404Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-28T17:44:38.404Z] > authorizing via signed-in user
+[debug] [2018-07-28T17:44:38.407Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-28T17:44:38.407Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/EzIEz4QdELr7FdMsMFxtscgAiFhj8ZzMlAmZOnhjlRw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Jul 28 2018 10:44:38 GMT-0700 (PDT)
+[debug] [2018-07-28T17:44:38.534Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-28T17:44:38.552Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/island-roofing-siding  
+  
+ Sat Jul 28 2018 10:44:38 GMT-0700 (PDT)
+[debug] [2018-07-28T17:44:38.931Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-28T17:44:38.932Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/island-roofing-siding/tokens  
+  
+ Sat Jul 28 2018 10:44:38 GMT-0700 (PDT)
+[debug] [2018-07-28T17:44:39.429Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'island-roofing-siding'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing html-main directory for upload...
+[debug] [2018-07-28T17:44:42.270Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/island-roofing-siding/uploads/-LIWzVebHnBr-fRy1xbd?fileCount=233&message=  
+  
+ Sat Jul 28 2018 10:44:42 GMT-0700 (PDT)
