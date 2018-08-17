@@ -4619,6 +4619,15 @@ div[class*="box-flat"] {
 			width: 100%;
 			height: auto;
 		}
+		&:before {
+			content: "Photo Coming Soon";
+			color: white;
+			font-size: 1em;
+			position: absolute;
+			top: 15px;
+			right:	15px;
+			z-index: 2;
+		}
 		&::after {
 			content: "";
 			position: absolute;
@@ -4627,7 +4636,7 @@ div[class*="box-flat"] {
 			bottom: 0;
 			right: 0;
 			background: #000;
-			opacity: 0;
+			opacity: 0.4;
 			z-index: 0;
 			@include border-radius();
 			transition: opacity 0.5s;
@@ -5410,9 +5419,9 @@ div[class*="box-flat"] {
 	.res-m-bttm{
 		margin-bottom: $mgpd-lg;
 	}
-	.res-m-bttm-sm, .form-m-bttm {
-		margin-bottom: $mgpd-md;
-	}
+	// .res-m-bttm-sm, .form-m-bttm {
+	// 	margin-bottom: $mgpd-md;
+	// }
 	.res-m-bttm-xs {
 		margin-bottom: $mgpd-xs;
 	}

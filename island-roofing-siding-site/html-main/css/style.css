@@ -3517,6 +3517,14 @@ div[class*="box-flat"] {
       margin: 0;
       width: 100%;
       height: auto; }
+    .team-member .team-photo:before {
+      content: "Photo Coming Soon";
+      color: white;
+      font-size: 1em;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      z-index: 2; }
     .team-member .team-photo::after {
       content: "";
       position: absolute;
@@ -3525,7 +3533,7 @@ div[class*="box-flat"] {
       bottom: 0;
       right: 0;
       background: #000;
-      opacity: 0;
+      opacity: 0.4;
       z-index: 0;
       -ms-border-radius: 6px;
       border-radius: 6px;
@@ -4145,9 +4153,6 @@ div[class*="box-flat"] {
 
   .res-m-bttm {
     margin-bottom: 60px; }
-
-  .res-m-bttm-sm, .form-m-bttm {
-    margin-bottom: 30px; }
 
   .res-m-bttm-xs {
     margin-bottom: 10px; }
