@@ -3200,6 +3200,8 @@ div[class*="box-flat"] {
       box-shadow: 0 1px 0 #43596a; }
   .feature a.btn-link {
     color: #E5732D; }
+  .feature .coming-soon {
+    color: #E5732D; }
   .feature h3, .feature h4 {
     font-size: 1.125em;
     font-family: "Poppins", sans-serif; }
@@ -5577,5 +5579,20 @@ h3.heading-section, h3.heading-lead {
 .demo-sample-icon hr {
   margin-top: 25px;
   margin-bottom: 25px; }
+
+.form-thank-you {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .form-thank-you .btn {
+    margin: 0 5px 10px 0; }
+
+.form-thank-you-message {
+  margin-bottom: 30px; }
+
+.header-top .social.social-s2 {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
