@@ -33,7 +33,7 @@
 	// Slider
 	var $slider = $('#slider');
 	if ($slider.length > 0 ) {
-	$slider.carousel({ interval:6000, pause: 'null' });
+	$slider.carousel({ interval:10000, pause: 'null' });
 	}
 	//Carousel
 	var $has_carousel = $('.has-carousel');
